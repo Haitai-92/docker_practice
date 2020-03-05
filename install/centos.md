@@ -36,7 +36,7 @@ $ sudo yum install -y yum-utils \
 ```
 
 鉴于国内网络问题，强烈建议使用国内源，官方源请在注释中查看。
-
+（必须先添加软件源，未添加软件院将出现No package docker-ce available.错误）
 执行下面的命令添加 `yum` 软件源：
 
 ```bash
